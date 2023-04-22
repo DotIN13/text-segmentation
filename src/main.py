@@ -16,7 +16,7 @@ def main():
 	if args.image:
 		images = sorted(glob(os.path.join(pn_SRC, args.image)))
 	else:
-		images = sorted(glob(os.path.join(pn_SRC, "*.png")))
+		images = sorted(glob(os.path.join(pn_SRC, "*")))
 
 	if args.compile:
 		imgproc.compile()

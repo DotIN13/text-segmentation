@@ -70,7 +70,6 @@ int main(int argc, char *argv[]) {
     imwrite(saveLines.u8string(), imageLines);
     // END Step 3 //
 
-
     // START Step 4: word segmentation //
     WordSegmentation *word = new WordSegmentation();
     vector<Mat> summary;
